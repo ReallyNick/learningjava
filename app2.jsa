@@ -1,0 +1,13 @@
+
+// Function Definition
+function conversion (celcius){    
+    return celcius * 1.8 + 32
+}
+
+const conversion = (celcius) =>{    
+    return celcius * 1.8 + 32
+}
+// call the function
+console.log (conversion(0));
+console.log (conversion(10));
+console.log (conversion(30));
